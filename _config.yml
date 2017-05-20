@@ -1,7 +1,7 @@
 title: 3beards
-email: hello@3-beards.com
-description: Growing the global startup community, one follicle at a time
 url: https://3beards.github.io
 exclude:
   - Gemfile*
   - README.md
+sass:
+  style: compressed
