@@ -5,7 +5,7 @@ a {
   transition: all .3s ease;
 
   &:hover {
-    opacity: .6;
+    opacity: .8;
   }
 }
 
@@ -31,6 +31,14 @@ button {
   &:active {
     outline: none;
   }
+}
+
+hr {
+  width: 30%;
+  height: 0;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 section {
@@ -144,6 +152,75 @@ section {
 
     &.ds {
       background-image: url(/assets/images/logo-digitalsizzle.svg);
+    }
+  }
+}
+
+.crew {
+  h2 {
+    span {
+      display: inline-block;
+      margin: 0 .5rem;
+      width: 13rem;
+      background-size: contain;
+      background-image: url(/assets/images/logo-3beards.svg);
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      text-indent: -99999px;
+    }
+  }
+
+  .beard {
+    display: inline-block;
+    margin: 0 0 1rem;
+    width: 14rem;
+
+    a {
+      display: block;
+      margin: 2rem auto 1rem;
+      width: 10rem;
+      height: 10rem;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 50%;
+    }
+
+    &.michael a {
+      background-image: url(/assets/images/team-michael.jpg);
+    }
+
+    &.benjamin a {
+      background-image: url(/assets/images/team-benjamin.jpg);
+    }
+
+    &.bryce a {
+      background-image: url(/assets/images/team-bryce.jpg);
+    }
+
+    &.joe a {
+      background-image: url(/assets/images/team-joe.jpg);
+    }
+
+    &.gabbi a {
+      background-image: url(/assets/images/team-gabbi.jpg);
+    }
+
+    &.kevin a {
+      background-image: url(/assets/images/team-kevin.jpg);
+    }
+
+    &.vicky a {
+      background-image: url(/assets/images/team-vicky.jpg);
+    }
+
+    &.bruno a {
+      background-image: url(/assets/images/team-bruno.jpg);
+    }
+
+    h4,
+    p {
+      margin: 0;
     }
   }
 }
