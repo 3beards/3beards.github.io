@@ -1,5 +1,6 @@
 title: 3beards
 url: https://3beards.github.io
+permalink: /:title
 exclude:
   - Gemfile*
   - README.md
