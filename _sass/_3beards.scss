@@ -9,6 +9,12 @@ a {
   }
 }
 
+p {
+  a {
+    font-weight: $font-weight-regular;
+  }
+}
+
 button {
   padding: .7rem 1.7rem;
   text-align: center;
@@ -61,7 +67,7 @@ blockquote {
 
   cite {
     display: block;
-    margin-top: 1rem;
+    margin-top: 1.2rem;
   }
 }
 
@@ -99,7 +105,28 @@ section {
   }
 }
 
-// Page sections
+footer {
+  margin-bottom: 1rem;
+
+  * {
+    font-weight: 200 !important;
+    color: #CCCCCC;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  p {
+    float: left;
+
+    + p {
+      float: right;
+    }
+  }
+}
+
+// Homepage
 
 .video {
   padding: 5rem 0 7rem;
@@ -258,6 +285,8 @@ section {
 }
 
 .remembeard {
+  margin-bottom : 2rem;
+
   h2 {
     margin-bottom: 3rem;
   }
