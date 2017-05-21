@@ -33,6 +33,38 @@ button {
   }
 }
 
+blockquote {
+  margin: 0;
+  padding: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+
+  &:before {
+    color: #CCCCCC;
+    content: "\201C";
+    font-size: 4rem;
+    line-height: .1rem;
+    margin-right: .2rem;
+    vertical-align: -1.7rem;
+  }
+
+  p {
+    display: inline;
+    text-align: justify;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+  }
+
+  cite {
+    display: block;
+    margin-top: 1rem;
+  }
+}
+
 hr {
   width: 30%;
   height: 0;
@@ -222,5 +254,11 @@ section {
     p {
       margin: 0;
     }
+  }
+}
+
+.remembeard {
+  h2 {
+    margin-bottom: 3rem;
   }
 }
