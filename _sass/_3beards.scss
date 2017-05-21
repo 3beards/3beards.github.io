@@ -153,7 +153,7 @@ footer {
   background-image: linear-gradient(#FE7880, #F38BD3);
 
   button:hover {
-    color: #F38BD3;
+    color: #FE7880;
   }
 
   .logo {
@@ -169,13 +169,10 @@ footer {
 }
 
 .silicondrinkabout {
-  background: #AEEAEA;
-  background: #738F9A;
-  background-image: linear-gradient(#AEEAEA, #738F9A);
-
-  button:hover {
-    color: #738F9A;
-  }
+  background-image: url(/assets/images/background-sd.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 
   .logo {
     display: block;
