@@ -198,7 +198,9 @@ footer {
   }
 
   p {
+    position: relative;
     float: left;
+    z-index: 99;
 
     + p {
       float: right;
@@ -206,6 +208,7 @@ footer {
       + p {
         width: 100%;
         text-align: center;
+        z-index: 98;
 
         a {
           width: 50px;
