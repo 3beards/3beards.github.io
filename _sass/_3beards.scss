@@ -202,6 +202,30 @@ footer {
 
     + p {
       float: right;
+
+      + p {
+        width: 100%;
+        text-align: center;
+
+        a {
+          width: 50px;
+          display: inline-block;
+          background-image: url(/assets/emoji/1f602.svg);
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center;
+          text-indent: -99999px;
+          opacity: .3;
+
+          &:hover {
+            opacity: 1;
+          }
+        }
+
+        @media only screen and (min-width: $breakpoint-small) {
+          margin-top: -50px;
+        }
+      }
     }
   }
 }
@@ -274,11 +298,13 @@ footer {
 
 .old-events {
   .logo {
+    display: block;
     height: 8rem;
     margin: 2rem 0;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    text-indent: -99999px;
 
     &.dpmb {
       height: 7rem;
@@ -366,9 +392,11 @@ footer {
 }
 
 .remembeard {
-  margin-bottom : 2rem;
-
   h2 {
     margin-bottom: 3rem;
+  }
+
+  blockquote {
+    margin-bottom : 2rem;
   }
 }
