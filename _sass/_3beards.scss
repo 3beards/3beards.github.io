@@ -122,6 +122,16 @@ section {
       margin-bottom: 20px;
     }
   }
+
+  ul {
+    margin-top: -1rem;
+    padding: 0;
+    list-style: none;
+
+    a {
+      margin: 0 !important;
+    }
+  }
 }
 
 .for-accessibility {
@@ -161,6 +171,12 @@ header {
 
     &.digitalsizzle {
       background-image: url(/assets/images/logo-digitalsizzle.svg);
+    }
+
+    &.dontpitchmebro {
+      margin: 3rem auto 2rem;
+      height: 11rem;
+      background-image: url(/assets/images/logo-dontpitchmebro.svg);
     }
   }
 }

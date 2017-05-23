@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        {% assign title_class = page.title | replace: " ", "" | downcase %}
+        {% assign title_class = page.title | slugify | replace: "-", "" %}
 
         <h1 class="{% if page.url != "/" %}logo {{ title_class }}{% endif %}">
           {{ page.title }}
