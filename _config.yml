@@ -1,7 +1,8 @@
 title: 3beards
-url: https://3beards.github.io
+url: https://3-beards.com
 permalink: /:title
 exclude:
+  - CNAME
   - Gemfile*
   - README.md
 sass:
