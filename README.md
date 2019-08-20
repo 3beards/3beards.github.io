@@ -1,3 +1,3 @@
 # 3beards
 
-The source code for [3-beards.com](https://3-beards.com)
+The source code for [3beards.github.io](https://3beards.github.io)
