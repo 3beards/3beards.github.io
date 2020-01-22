@@ -2,6 +2,12 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
+        {% if page.url != "/" %}
+          <div class="nav-back">
+            <a href="/">← Back to homepage</a>
+          </div>
+        {% endif %}
+
         {% assign title_class = page.title | slugify | replace: "-", "" %}
 
         <h1 class="{% if page.url != "/" %}logo {{ title_class }}{% endif %}">
